@@ -1,5 +1,4 @@
-//Copy-Paste solution for luminance and constast ratio from stack overflow
-//Plus my upgrade for iterations on object list and calculating higher value
+//Copy-Pasted solution for luminance and constast ratio from stack overflow
 // https://stackoverflow.com/questions/9733288/how-to-programmatically-calculate-the-contrast-ratio-between-two-colors
 
 
@@ -17,10 +16,10 @@ function luminanace(r, g, b) {
 function contrast(rgb1) {
     var lum1 = luminanace(rgb1[0], rgb1[1], rgb1[2]);
     var lum2 = luminanace(000, 000, 000);
-    var lum3 = luminanace(255, 255, 255);
     var brightest = Math.max(lum1, lum2);
     var darkest = Math.min(lum1, lum2);
-        //Stack Overflow Ends
+        //Stack Overflow Ends Here... additional input created based on the original code to calculate two background colours
+    var lum3 = luminanace(255, 255, 255);
     var brighter = Math.max(lum1, lum3);
     var darker = Math.min(lum1, lum3);
     
