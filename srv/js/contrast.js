@@ -2,7 +2,6 @@
 // https://stackoverflow.com/questions/9733288/how-to-programmatically-calculate-the-contrast-ratio-between-two-colors
 
 
-
 //Stack Overfrlow Begins
 function luminanace(r, g, b) {
     var a = [r, g, b].map(function (v) {
@@ -23,20 +22,13 @@ function contrast(rgb1) {
     var brighter = Math.max(lum1, lum3);
     var darker = Math.min(lum1, lum3);
     
-    
-         return {
+        return {
             white: (brightest + 0.05)
             / (darkest + 0.05),
             black: (brighter + 0.05)
             / (darker + 0.05),
-            
-            
-            
         };
-        
 }
-
-
 
 
 

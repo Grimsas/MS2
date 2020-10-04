@@ -1,7 +1,7 @@
 *.sublime-workspace
 .DS_Store
 dist/
-
+sss.html
 .img
 
 logs/

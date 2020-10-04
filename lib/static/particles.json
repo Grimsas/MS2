@@ -22,12 +22,12 @@
         
             
     "opacity": {
-        "value": 0.2,
+        "value": 0.3,
         "random": false,
         "anim": {
             "enable": true,
             "speed": 1,
-            "opacity_min": 0.3,
+            "opacity_min": 0.9,
             "sync": false
         }
     },

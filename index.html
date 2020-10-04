@@ -3,10 +3,11 @@
 
 <head>
   <meta charset="UTF-8">
+  <title>Untitled Useless Game</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="Description" content="Most useless game in the universe" />
   <link rel="icon" href="favicon.ico">
-  
+  <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
 
   <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"> -->
@@ -14,26 +15,19 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jasmine/3.6.0/jasmine-html.js" integrity="sha512-bqig44hBpNuvBzxsqbHiqwRximGm4UfJAvOeNQHjB7++0D2u/3bcw4ZwmVsqrooii2UJ91oDI/6aANdp3BwcQQ==" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jasmine/3.6.0/boot.js" integrity="sha512-igPP1Xd0hsvXVZGyfIYeUD779NLEA1Sj/5ts2C/e/22zeUqR6ehA7M/nNLuONalznkHQkGPBESNwzGpwBQD60g==" crossorigin="anonymous"></script> -->
   <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jasmine/3.6.0/jasmine.css" integrity="sha512-XKXP02aeSNI5HsDB3+4MM0tSDXJTBFZpt99xL7PvMz3+A3aRy0F0Ne/CATK+Z72ckE/4Ev9OiosWQr5LtU284Q==" crossorigin="anonymous" /> -->
- 
-
+  
   <link rel="stylesheet" href="./srv/style/style.css">
-  <title>Untitled Useless Game</title>
 </head>
-
 <body>
-
-  <div class="game-background">
+  <div class="game-background" id="particles-js">
     <!-- <div id="particles-js" class="game-background"></div> -->
     
 </div>
 <div id="gameFields"></div>
 <!-- <div class="game-background"><canvas id="game-window"></canvas><button id="">Go fullscreen</button></div> -->
 
-
-  <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
-  <script> particlesJS.load('particles-js', './lib/static/particles.json', function () {
-      console.log('particles.json loaded...');});</script>
-  
+  <script type="text/json" src="./srv/js/common.json"></script>
+  <script> particlesJS.load('particles-js', './lib/static/particles.json', function () {console.log('particles.json loaded...');});</script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/6.1.1/d3.js" integrity="sha512-oIljcvt50cVlieYwm4lbOWDhfre+VNJumxvSHtOOo+T+slMc4t/OcSvnGEhznwepfeM0IF0itp9dF0OOK1f77Q==" crossorigin="anonymous"></script>
   <script type="text/javascript" src="./srv/js/contrast.js"></script>
   <script type="text/javascript" src="./lib/static/game.js"></script>
