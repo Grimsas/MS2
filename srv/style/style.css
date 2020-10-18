@@ -4,10 +4,9 @@ html,
 body {
   margin: 0;
   padding: 0;
-  height: 100vh;
+  height: 100%;
   width: 100%;
-  overflow: hidden;
-  position: fixed;
+  position: relative;
 }
 
 /* .wrapper {
@@ -30,15 +29,18 @@ body {
 
 
 .game-background{
-  position: fixed;
-  top: 0px;
-  left: 0px;
-  z-index: -1;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  position: relative;
 }
 canvas {
   display:block;
+  top: 0;
+  left: 0;
   background: #bebebe;
-  position: fixed;
+  position: absolute;
   z-index: -10;
 }
 
