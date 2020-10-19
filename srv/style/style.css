@@ -39,7 +39,7 @@ canvas {
   display:block;
   top: 0;
   left: 0;
-  background: #bebebe;
+  background: #aeaeae;
   position: absolute;
   z-index: -10;
 }
