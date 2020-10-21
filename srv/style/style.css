@@ -48,3 +48,8 @@ canvas {
   height: 100%; 
   opacity: 1;
 }
+
+.balltext {
+  font-size: 3em;
+  text-anchor: middle;
+}
