@@ -53,4 +53,5 @@ canvas {
 .balltext {
   font-size: 3em;
   text-anchor: middle;
+  user-select: none;
 }
