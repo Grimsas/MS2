@@ -55,3 +55,9 @@ canvas {
   text-anchor: middle;
   user-select: none;
 }
+
+.wordToGuess{
+  font-size: 4em;
+  text-anchor: middle;
+  user-select: none;
+}
