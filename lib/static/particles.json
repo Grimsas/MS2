@@ -22,8 +22,8 @@
         
             
     "opacity": {
-        "value": 0.3,
-        "random": false,
+        "value": 0.6,
+        "random": true,
         "anim": {
             "enable": true,
             "speed": 1,
