@@ -61,3 +61,7 @@ canvas {
   text-anchor: middle;
   user-select: none;
 }
+
+text{
+text-anchor: middle;
+}
