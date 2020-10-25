@@ -19,6 +19,7 @@ body {
   position: relative;
   overflow: hidden;
   font-family: 'silkaregular';
+  user-select: none;
 
 }
 
@@ -52,29 +53,31 @@ canvas {
   display:block;
   top: 0;
   left: 0;
-  background: rgb(20,13,57);
-  background: linear-gradient(180deg, rgb(0, 0, 0) 0%, rgba(20,13,57,0.75) 70%, rgba(255,255,255,1) 100%);
+  background: rgb(25, 25, 60);
+  background: linear-gradient(180deg, rgb(25, 25, 50) 0%, rgba(25, 25, 45, 0.85) 66%, rgba(255,255,255,0.9) 95%);
   position: absolute;
-  z-index: -10;
+  z-index: -1;
 }
 
 #particles-js {
   height: 100%; 
   opacity: 1;
 }
-
+svg{
+     z-index: 6; 
+}
 .balltext {
-  font-size: 3em;
+  font-size: 5em;
   text-anchor: middle;
-  user-select: none;
+  
 }
 
 .wordToGuess{
-  font-size: 3em;
+  font-size: 5em;
   text-anchor: middle;
-  user-select: none;
 }
 
-text{
+/* text{
 text-anchor: end;
-}
+} */
+
