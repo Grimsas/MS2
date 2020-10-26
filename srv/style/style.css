@@ -7,20 +7,29 @@
        url('./fonts/silka-regular-webfont.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
+}
 
+@font-face {
+  font-family: 'Snowinter';
+  src: url('./fonts/Snowinter-Free-For-Personal-Use.ttf') format('truetype');
+  src: url('./fonts/Snowinter-Free-For-Personal-Use.ttf') format('truetype')
+       url('./fonts/Snowinter-Free-For-Personal-Use.otf') format('opentype');
+      
+  font-weight: normal;
+  font-style: normal;
 }
 
 html,
 body {
   margin: 0;
   padding: 0;
-  height: 100%;
-  width: 100%;
+  height: 100vh;
+  width: 100vw;
   position: relative;
   overflow: hidden;
   font-family: 'silkaregular';
   user-select: none;
-
+  font-size: 1em;
 }
 
 /* .wrapper {
@@ -67,17 +76,22 @@ svg{
      z-index: 6; 
 }
 .balltext {
-  font-size: 5em;
+  /* font-size: calc((6vmin + 6vmax)); */
   text-anchor: middle;
-  
+  font-family: 'Snowinter';
 }
 
 .wordToGuess{
-  font-size: 5em;
+  /* font-size: calc((4vmin + 4vmax));*/
+  font-size: 5rem; 
   text-anchor: middle;
+  /* font-family: 'Snowinter'; */
 }
 
-/* text{
-text-anchor: end;
-} */
+.scores{
+  font-size: calc(1vw + 1vh);
+}
 
+.start-button-text{
+  text-anchor: middle;
+}
