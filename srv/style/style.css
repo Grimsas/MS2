@@ -63,7 +63,7 @@ canvas {
   top: 0;
   left: 0;
   background: rgb(25, 25, 60);
-  background: linear-gradient(180deg, rgb(25, 25, 50) 0%, rgba(25, 25, 45, 0.85) 66%, rgba(255,255,255,0.9) 95%);
+  background: linear-gradient(180deg, rgb(25, 25, 50) 0%, rgba(25, 25, 45, 0.95) 50%, rgba(255,255,255,0.5) 95%);
   position: absolute;
   z-index: -1;
 }
@@ -95,3 +95,11 @@ svg{
 .start-button-text{
   text-anchor: middle;
 }
+
+
+/* @media only screen and (max-width: 1200px) {
+  canvas {
+    background: rgb(25, 25, 60);
+    background: linear-gradient(180deg, rgb(25, 25, 50) 0%, rgba(25, 25, 45, 0.85) 55%, rgba(255,255,255,0.9) 95%);
+  }
+} */
