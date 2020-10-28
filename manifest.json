@@ -7,7 +7,7 @@
           "sizes": "512x512",
           "type": "image/png"
       }
-  ],"scope": "./MS2/",
-    "start_url": "/index.html",
+  ],"scope": "/MS2/",
+    "start_url": "/MS2/index.html",
     "display": "fullscreen"
   }
