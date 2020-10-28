@@ -1,8 +1,13 @@
 {
     "short_name": "Untitled Useless Game",
     "name": "Most useless game in the universe",
- 
-    "scope": "./",
+    "icons": [
+      {
+          "src": "/favicon.png",
+          "sizes": "512x512",
+          "type": "image/png"
+      }
+  ],"scope": "./MS2/",
     "start_url": "/index.html",
     "display": "fullscreen"
   }
