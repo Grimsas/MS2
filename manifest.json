@@ -3,10 +3,19 @@
     "name": "Most useless game in the universe",
     "icons": [
       {
-          "src": "/favicon.png",
+          "src": "/MS2/favicon.png",
           "sizes": "512x512",
-          "type": "image/png"
-      }
+          "type": "image/png",
+          "purpose": "any"
+
+            },
+            {
+              "src": "/MS2/favicon196.png",
+              "sizes": "196x196",
+              "type": "image/png",
+              "purpose": "maskable" 
+            }
+      
   ],"scope": "/MS2/",
     "start_url": "/MS2/index.html",
     "display": "fullscreen"
