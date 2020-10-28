@@ -3,6 +3,6 @@
 dist/
 sss.html
 .img
-
+*.log
 logs/
 test/
