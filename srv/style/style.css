@@ -82,7 +82,7 @@ svg{
 }
 
 .wordToGuess{
-  /* font-size: calc((4vmin + 4vmax));*/
+  /* font-size: calc((4vmin + 4vmax)); */
   font-size: 5rem; 
   text-anchor: middle;
   /* font-family: 'Snowinter'; */

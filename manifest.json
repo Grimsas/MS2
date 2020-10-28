@@ -1,0 +1,7 @@
+{
+    "short_name": "Untitled Useless Game",
+    "name": "Most useless game in the universe",
+ 
+    "start_url": "/index.html",
+    "display": "fullscreen"
+  }
