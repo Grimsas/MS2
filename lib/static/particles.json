@@ -11,13 +11,7 @@
             "value": "#fff"
         },
         "shape": {
-            "type": "circle",
-            "image": {
-                "_comment": "images does not work for some reason",
-                "src": "../img/leaf.svg",
-                "width": 22,
-                "height": 22
-              }
+            "type": "circle"
         },
         
             
