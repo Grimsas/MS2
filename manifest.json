@@ -12,10 +12,12 @@
         "src": "/MS2/favicon196.png",
         "sizes": "196x196",
         "type": "image/png",
-        "purpose": "any" 
+        "purpose": "maskable" 
       }
       ],
     "scope": "/MS2/",
     "start_url": "/MS2/index.html",
-    "display": "fullscreen"
+    "display": "fullscreen",
+    "theme_color": "#16193c",
+    "background_color": "#FFFFFF"
   }
