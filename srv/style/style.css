@@ -2,9 +2,9 @@
   font-family: 'silkaregular';
   src: url('./fonts/silka-regular-webfont.eot');
   src: url('./fonts/silka-regular-webfont.eot?#iefix') format('embedded-opentype'),
-       url('./fonts/silka-regular-webfont.woff2') format('woff2'),
-       url('./fonts/silka-regular-webfont.woff') format('woff'),
-       url('./fonts/silka-regular-webfont.ttf') format('truetype');
+    url('./fonts/silka-regular-webfont.woff2') format('woff2'),
+    url('./fonts/silka-regular-webfont.woff') format('woff'),
+    url('./fonts/silka-regular-webfont.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -12,9 +12,8 @@
 @font-face {
   font-family: 'Snowinter';
   src: url('./fonts/Snowinter-Free-For-Personal-Use.ttf') format('truetype');
-  src: url('./fonts/Snowinter-Free-For-Personal-Use.ttf') format('truetype')
-       url('./fonts/Snowinter-Free-For-Personal-Use.otf') format('opentype');
-      
+  src: url('./fonts/Snowinter-Free-For-Personal-Use.ttf') format('truetype') url('./fonts/Snowinter-Free-For-Personal-Use.otf') format('opentype');
+
   font-weight: normal;
   font-style: normal;
 }
@@ -34,76 +33,46 @@ body {
   font-size: 1em;
 }
 
-/* .wrapper {
-  position: absolute;
-  display: block;
-  top: 0;
-  left: 0;
-  z-index: 0;
-  background: #969696;
-} */
+.game-background {
 
-
-
-
-/* #gameFields{
-  background-color: #bebebe;
-  top:10px;
-  left:10px;
-} */
-
-
-.game-background{
-  top: 0;
-  left: 0;
   margin: 0;
   padding: 0;
   height: 100%;
   width: 100%;
   position: relative;
 }
+
 canvas {
-  display:block;
-  top: 0;
-  left: 0;
+  display: block;
   background: rgb(25, 25, 60);
-  background: linear-gradient(180deg, rgb(25, 25, 50) 0%, rgba(25, 25, 45, 0.95) 50%, rgba(255,255,255,0.5) 95%);
+  background: linear-gradient(180deg, rgb(25, 25, 50) 0%, rgba(25, 25, 45, 0.95) 50%, rgba(255, 255, 255, 0.5) 95%);
   position: absolute;
   z-index: -1;
 }
 
 #particles-js {
-  height: 100%; 
-  opacity: 1;
+  height: 100%;
 }
-svg{
-     z-index: 6; 
+
+svg {
+  z-index: 6;
 }
+
 .balltext {
-  /* font-size: calc((6vmin + 6vmax)); */
   text-anchor: middle;
   font-family: 'Snowinter';
 }
 
-.wordToGuess{
-  /* font-size: calc((4vmin + 4vmax)); */
-  font-size: 5rem; 
+.wordToGuess {
+  font-size: 5rem;
   text-anchor: middle;
-  /* font-family: 'Snowinter'; */
+
 }
 
-.scores{
-  font-size: calc(1vw + 1vh);
-}
-
-.start-button-text{
-  text-anchor: middle;
-}
-
-
-/* @media only screen and (max-width: 1200px) {
-  canvas {
-    background: rgb(25, 25, 60);
-    background: linear-gradient(180deg, rgb(25, 25, 50) 0%, rgba(25, 25, 45, 0.85) 55%, rgba(255,255,255,0.9) 95%);
-  }
+/* .scores {
+  font-size: 2rem;
 } */
+
+.start-button-text {
+  text-anchor: middle;
+}
