@@ -3,21 +3,22 @@
     "name": "Bubbly spelling and typing game",
     "icons": [
       {
-         "src": "/MS2/favicon.png",
+         "src": "/ms2/favicon.png",
          "sizes": "512x512",
          "type": "image/png",
          "purpose": "any"
       },
       {
-        "src": "/MS2/favicon196.png",
+        "src": "/ms2/favicon196.png",
         "sizes": "196x196",
         "type": "image/png",
         "purpose": "maskable" 
       }
       ],
-    "scope": "/MS2/",
-    "start_url": "/MS2/index.html",
-    "display": "fullscreen",
+    "scope": "/ms2/",
+    "start_url": "/ms2/index.html",
+    "display": "standalone",
+    "orientation": "portrait",
     "theme_color": "#16193c",
     "background_color": "#FFFFFF"
   }
