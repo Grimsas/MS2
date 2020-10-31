@@ -67,8 +67,8 @@ The project had been tested on Android and Windows machines with various screen 
 
 ## Deployment
 
-[https://grimsas.github.io/ms2/]
-Page has been developed localy and published to [https://pages.github.com/](GitHub pages)
+[https://grimsas.github.io/ms2/](Deployment)
+Page has been developed localy and published to [https://pages.github.com/](GitHub.io)
 
 ### Media
 
