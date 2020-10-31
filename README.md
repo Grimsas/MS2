@@ -25,8 +25,6 @@ Be able to see my statistics to know if I am improving through the sessions.
 
 ## Features
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
-
 ### Existing Features
 
 - Mouse and Touchcreen support - allow users to use touchscreen or mouse to pop the balls to complete words
